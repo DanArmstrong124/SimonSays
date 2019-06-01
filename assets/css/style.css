@@ -1,0 +1,121 @@
+/*-Simon Specials-*/
+
+body {
+    background-color: black;
+}
+
+.tac {
+    text-align: center;
+}
+
+.cap {
+    text-transform: uppercase;
+}
+
+.mainfonts {
+    font-size: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+/*-HEADER-*/
+
+.header {
+    font-size: 50px;
+    background-color: grey;
+    color: white;
+}
+
+/*-SQUARES-*/
+
+.redsquare {
+    width: 50%;
+    height: 200px;
+    background-color: darkred;
+    border: 5px solid black;
+}
+
+.bluesquare {
+    width: 50%;
+    height: 200px;
+    background-color: darkblue;
+    border: 5px solid black;
+}
+
+.greensquare {
+    width: 50%;
+    height: 200px;
+    background-color: darkgreen;
+    border: 5px solid black;
+}
+
+.yellowsquare {
+    width: 50%;
+    height: 200px;
+    background-color: darkorange;
+    border: 5px solid black;
+}
+
+/*-INSTRUCTIONS-*/
+
+.instructions {
+    font-size: 30px;
+    background-color: grey;
+    color: white;
+}
+
+.instructfont {
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+}
+
+/* JavaScript Classes */
+
+.clickedCorrectG {
+    background-color: green!important;
+}
+
+.clickedCorrectR {
+    background-color: red!important;
+}
+
+.clickedCorrectB {
+    background-color: blue!important;
+}
+
+.clickedCorrectY {
+    background-color: yellow!important;
+}
+
+.clickedIncorrect {
+    background-color: black!important;
+}
+
+/*OVERRIDES*/
+
+.btn {
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+/*MEDIA*/
+
+@media(max-width: 670px) {
+    .header {
+        font-size: 30px;
+    }
+    .btn {
+        font-size: 9px;
+    }
+}
+
+@media(max-width: 420px) {
+    .header {
+        font-size: 15px;
+    }
+    .btn {
+        font-size: 7px;
+    }
+}

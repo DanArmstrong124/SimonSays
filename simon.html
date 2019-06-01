@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Simon Says</title>
+</head>
+
+<body>
+    <section class="simon-game container-fluid">
+        <div class="simongame tac cap">
+            <div class="col-xs-3 header playpause" id="start"><button class="btn btn-success">PLAY/PAUSE</button></div>
+            <div class="col-xs-6 header title">SIMON</div>
+            <div class="col-xs-3 header timer" id="timer">TIMER</div>
+            <div class="col-xs-6 redsquare pad" id="rs"></div>
+            <div class="col-xs-6 bluesquare pad" id="bs"></div>
+            <div class="col-xs-6 greensquare pad" id="gs"></div>
+            <div class="col-xs-6 yellowsquare pad" id="ys"></div>
+            <div class="col-xs-12" id="pointsOnScreen">POINTS</div>
+            <div class="col-xs-12" id="turnOnScreen">TURN</div>
+        </div>
+    </section>
+
+    <div class="tac cap instructions">
+        HOW TO PLAY:<br>
+        <div class="instructfont">
+            Simon Says is an game of memory and skill!<br> A random sequence of colours will flash on your screen,<br> remember these colours and the order they present themselves in...<br> Once the colours stop flashing, you will have to click each colour
+            as they appeared... In order, with a time limit.<br> Up for the challenge? Press Play!<br>
+        </div>
+    </div>
+
+    <footer class="tac cap mainfonts">
+        <div class="footer credits">
+            <br> Developed by Daniel Armstrong<br> Created for CodeInstitute<br>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="assets/js/jq.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/startGame.js"></script>
+    <script type="text/javascript" src="assets/js/playGame.js"></script>
+    <script type="text/javascript" src="assets/js/varStorage.js"></script>
+    <script type="text/javascript" src="assets/js/timeChecker.js"></script>
+    <script type="text/javascript" src="assets/js/scoreChecker.js"></script>
+    <script type="text/javascript" src="assets/js/userPlaying.js"></script>
+    <script type="text/javascript" src="assets/js/clickCounter.js"></script>
+    <script type="text/javascript" src="assets/js/gameOver.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
